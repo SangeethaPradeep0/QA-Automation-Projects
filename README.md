@@ -1,5 +1,3 @@
-# QA-Automation-Projects
-Sample Selenium and API automation projects for learning
 # QA Automation Projects
 
 This repository contains sample projects demonstrating basic "Web Automation, Data-Driven Testing, and API Testing"
