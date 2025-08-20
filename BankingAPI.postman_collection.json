@@ -1,0 +1,28 @@
+{
+  "info": {
+    "name": "Banking API Tests",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get Account Details",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "https://jsonplaceholder.typicode.com/users/1"
+      }
+    },
+    {
+      "name": "Create Transaction",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{ \"userId\": 1, \"title\": \"Fund Transfer\", \"body\": \"$100 transfer\" }"
+        },
+        "url": "https://jsonplaceholder.typicode.com/posts"
+      }
+    }
+  ]
+}
